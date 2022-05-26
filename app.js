@@ -7,7 +7,7 @@ app.use(router);
 
 /*Indica a 'express' que en la carpeta 'public' se
 existen los archivos estáticos cuando solicita '/app' (Ej: localhost:3000/app) */
-app.use('/app', express.static('public'));
+app.use('/devops', express.static('public'));
  
 //cada vez que se ingrese a cualquier sitios se ejecutará
 //lo que está dentro de la función anónima que está como parámetro
