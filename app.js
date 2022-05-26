@@ -8,7 +8,7 @@ var app = express();
 app.use('/', function(req, res){
  
   //envía un mensaje
-  res.send('Hola Mundo');
+  res.send('Hola Mundo 1');
 });
  
 //el puerto 3000 se usa mucho en aplicaciones node.
