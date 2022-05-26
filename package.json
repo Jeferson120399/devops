@@ -1,0 +1,14 @@
+{
+  "name": "devops",
+  "version": "1.0.0",
+  "description": "Proyecto para realizar demostracion de integracion continua con Devops",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jeferson Ramirez Mora",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}
