@@ -13,5 +13,5 @@ app.use('/', function(req, res){
  
 //el puerto 3000 se usa mucho en aplicaciones node.
 //esta es la forma de darle vida a la aplicación de express
-app.listen(3000);
+app.listen(process.env.PORT ||3000);
 console.log('La aplicación está escuchando en http:localhost:3000/')
